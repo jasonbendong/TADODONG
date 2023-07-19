@@ -57,7 +57,7 @@ class Home(tk.Frame):
         tk.Frame.__init__(self, parent)
         
         # Load the first GIF using PIL
-        gif_path = r"C:\Users\admin\CaterMate01.gif"
+        gif_path = "CaterMate01.gif"
         gif_image = Image.open(gif_path)
 
         # Convert the first GIF frames to PIL Image objects
@@ -81,7 +81,7 @@ class Home(tk.Frame):
 
 
         # Load the second GIF using PIL
-        gif_path2 = r"C:\Users\admin\CaterMate0234.gif"
+        gif_path2 = "CaterMate0234.gif"
         gif_image2 = Image.open(gif_path2)
 
         # Convert the second GIF frames to PIL Image objects
